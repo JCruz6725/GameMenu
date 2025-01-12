@@ -7,6 +7,7 @@ namespace Globals {
         public const string PLAY_GAME = "Start";
         public const string EXIT = "Exit";
         public const string DIFFICULTY = "Difficulty";
+        public const string AUDIO = "Audio";
         public const string SET = "Set";
 
         public static string CommandsListHelper(string[] commands) {

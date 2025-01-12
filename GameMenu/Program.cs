@@ -1,4 +1,5 @@
-﻿using Globals.Menu.States;
+﻿using GameMenu.Menu.States;
+using Globals.Menu.States;
 
 namespace Globals
 {
