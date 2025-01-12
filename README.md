@@ -1,4 +1,4 @@
 # GameMenu
 
-Mini showcase of State and Singleton pattern the build an organized game menu that allows ease of traversal and adding/remove of menus.
+Mini showcase of State and Singleton pattern to build and organize a game menu that allows ease of traversal and the adding/removal of menus.
 
