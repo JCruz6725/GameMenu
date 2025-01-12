@@ -3,12 +3,12 @@
 
         public IState? HandleInput(string input) {
             switch(input) {
-                case Globals.MenuCommands.MAIN_MENU: {
-                        //move back up.
-                        return new MainMenu();
-                    }
                 case Globals.MenuCommands.DIFFICULTY: {
                         return new DifficultyMenu();
+                    }
+                case Globals.MenuCommands.EXIT: {
+                        //move back up.
+                        return new MainMenu();
                     }
             }
             return null;
@@ -18,7 +18,7 @@
             Console.WriteLine("*****************");
             Console.WriteLine("****Options******");
             Console.WriteLine("*****************");
-            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.MAIN_MENU}, {Globals.MenuCommands.DIFFICULTY}']");
+            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.DIFFICULTY}, {Globals.MenuCommands.EXIT}']");
 
         }
     }

@@ -4,8 +4,7 @@
         public const string OPTION_MENU= "Options";
         public const string PLAY_GAME = "Start";
         public const string EXIT = "Exit";
-        public const string DIFFICULTY = "Diff";
+        public const string DIFFICULTY = "Difficulty";
         public const string SET = "Set";
-    
     }
 }
