@@ -19,9 +19,10 @@
 
 
         public void Render() {
-            Console.WriteLine("*****************");
-            Console.WriteLine("****Main Menu****");
-            Console.WriteLine("*****************");
+            Console.WriteLine(
+                Globals.MenuCommands.MenuString(
+                    Globals.MenuCommands.MAIN_MENU
+                    ));
 
             Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
                 Globals.MenuCommands.PLAY_GAME,

@@ -15,9 +15,10 @@
         }
 
         public void Render() {
-            Console.WriteLine("*****************");
-            Console.WriteLine("****Options******");
-            Console.WriteLine("*****************");
+            Console.WriteLine(
+                Globals.MenuCommands.MenuString(
+                    Globals.MenuCommands.OPTION_MENU
+                    ));
 
             Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
                 Globals.MenuCommands.DIFFICULTY,

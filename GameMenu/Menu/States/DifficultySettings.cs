@@ -24,6 +24,11 @@
         }
 
         public void Render() {
+            Console.WriteLine(
+                Globals.MenuCommands.MenuString(
+                    Globals.MenuCommands.DIFFICULTY
+            ));
+            
             Console.WriteLine($"Current setting: {difficulty.DifficultyLevel}");
 
             Console.WriteLine(Globals.MenuCommands.CommandsListHelper([

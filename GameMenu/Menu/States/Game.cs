@@ -11,9 +11,10 @@
         }
 
         public void Render() {
-            Console.WriteLine("***************");
-            Console.WriteLine("****In Game****");
-            Console.WriteLine("***************");
+            Console.WriteLine(
+                Globals.MenuCommands.MenuString(
+                    "In-Game"
+                    ));
 
 
             Console.WriteLine(Globals.MenuCommands.CommandsListHelper([

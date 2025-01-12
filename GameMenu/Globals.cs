@@ -24,5 +24,15 @@ namespace Globals {
             sb.Append(cmdList);
             return sb.ToString();
         }
+
+
+        public static string MenuString(string MenuName) {
+            StringBuilder sb = new();
+
+            sb.AppendLine($"****  {MenuName}    ");
+            sb.AppendLine(string.Concat(Enumerable.Repeat<string>("*", 19)));
+
+            return sb.ToString();
+        }
     }
 }
