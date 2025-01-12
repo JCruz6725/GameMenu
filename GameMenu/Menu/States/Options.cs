@@ -18,7 +18,11 @@
             Console.WriteLine("*****************");
             Console.WriteLine("****Options******");
             Console.WriteLine("*****************");
-            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.DIFFICULTY}, {Globals.MenuCommands.EXIT}']");
+
+            Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
+                Globals.MenuCommands.DIFFICULTY,
+                Globals.MenuCommands.EXIT
+                ]));
 
         }
     }

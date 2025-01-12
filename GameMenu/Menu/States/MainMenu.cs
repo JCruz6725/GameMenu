@@ -22,8 +22,12 @@
             Console.WriteLine("*****************");
             Console.WriteLine("****Main Menu****");
             Console.WriteLine("*****************");
-            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.PLAY_GAME}, {Globals.MenuCommands.OPTION_MENU}, {Globals.MenuCommands.EXIT}']");
-        }
 
+            Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
+                Globals.MenuCommands.PLAY_GAME,
+                Globals.MenuCommands.OPTION_MENU,
+                Globals.MenuCommands.EXIT
+                ]));
+        }
     }
 }

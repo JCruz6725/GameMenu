@@ -14,7 +14,11 @@
             Console.WriteLine("***************");
             Console.WriteLine("****In Game****");
             Console.WriteLine("***************");
-            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.EXIT}']");
+
+
+            Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
+                Globals.MenuCommands.EXIT
+                ]));
         }
     }
 }

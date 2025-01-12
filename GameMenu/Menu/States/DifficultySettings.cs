@@ -25,7 +25,11 @@
 
         public void Render() {
             Console.WriteLine($"Current setting: {difficulty.DifficultyLevel}");
-            Console.WriteLine($"Avalible commands ['{Globals.MenuCommands.SET}, {Globals.MenuCommands.EXIT}']");
+
+            Console.WriteLine(Globals.MenuCommands.CommandsListHelper([
+                Globals.MenuCommands.SET,
+                Globals.MenuCommands.EXIT,
+                ]));
         }
     }
 }
